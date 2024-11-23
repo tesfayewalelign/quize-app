@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(153, 153, 160);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.button{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+   
+  
+   
+}
+.all{
+    display: flex;
+   
+   
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background: #131212;
+    border-radius: 15px;
+    margin-left: 300px;
+    border-radius: 15px;
+
+}
+.but{
+    width: 450px;
+    height: 180px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: left;
+    margin-left: 100px;
+    font-size: 15px;
+}
+   
+.next{
+   
+    width: 100px;
+    height: 40px;
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 8px;
+    border-color: green;
+}
+.next:hover{
+    background-color: blue;
+}
+.pre{
+    width: 100px;
+    height: 40px;
+    margin-left: 110px;
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 8px;
+    border-color: green;
+    
+}
+.pre:hover{
+    background-color: blue;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    
+    color: black;
+}
+.mean{
+    justify-content: center;
+    text-align: center;
+}
+.question{
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.correct{
+    background-color: green;
+    color: white;
+}
+.wrong{
+    background-color: red;
+    color: black;
+}
